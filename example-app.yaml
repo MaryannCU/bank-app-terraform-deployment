@@ -46,7 +46,7 @@ spec:
   tls:
   - hosts:
     - app.maryannsluxe.online
-    secretName: app-cloudwitches-online
+    secretName: app.maryannsluxe.online
   rules:
   - host: app.maryannsluxe.online
     http:
