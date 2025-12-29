@@ -37,6 +37,10 @@ jobs:
         with:
             cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+            node-version: '20'
 
 
       - name: 'Install tfsec for security scanning'
