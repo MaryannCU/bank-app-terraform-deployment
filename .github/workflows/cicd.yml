@@ -62,8 +62,8 @@ jobs:
       - name: 'tfsec Security Scan.'
         run: ./tfsec . || true
 
-      # - name: Terraform Plan
-      #   run: terraform plan 
+      - name: Terraform Plan
+        run: terraform plan 
 
       # - name: Terraform Apply.
       #   run: terraform apply -auto-approve 
